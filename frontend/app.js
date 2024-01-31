@@ -9,7 +9,7 @@ btn.addEventListener("click", () => {
         return;
     }
 
-    const baseURL = 'http://localhost:3000'
+    const baseURL = 'https://qrcode-q2gl.onrender.com'
     const output = document.getElementById('output')
 
     // generate: POST baseURL/generate, data

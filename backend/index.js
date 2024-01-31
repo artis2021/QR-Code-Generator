@@ -4,7 +4,6 @@ import QRCode from 'qrcode'
 
 const app = express();
 
-
 app.use(cors())
 app.use(express.json())
 
